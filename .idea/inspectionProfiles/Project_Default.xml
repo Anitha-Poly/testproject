@@ -1,0 +1,22 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="worktime.loginn" />
+          <option value="worktime.forms" />
+          <option value="worktime.models.first_name" />
+          <option value="worktime.models.firstname" />
+          <option value="worktime.models.Lastname" />
+          <option value="worktime.models.password" />
+          <option value="worktime.models.Confirm" />
+          <option value="worktime.models.Confirm_password" />
+          <option value="worktime.admin.register" />
+          <option value="workworld.views.recipient" />
+          <option value="app1.views.forms" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
