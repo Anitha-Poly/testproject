@@ -23,6 +23,7 @@ from guestreviews import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('guestreviews.urls')),
+    path('view_book', views.view_book, name='view_book'),
 
 ]
 

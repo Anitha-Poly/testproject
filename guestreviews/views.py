@@ -49,3 +49,10 @@ def add(request):
         k.save()
 
     return render(request,'add.html',{'key':k})
+def view_book(request):
+    b=bookForm
+    context = {
+        'instance': b,
+        'title': 'View Book'
+    }
+    return render(request, 'book.html', context)
